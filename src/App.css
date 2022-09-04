@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  text-decoration: none;
 }
 
 .App-logo {
@@ -32,7 +33,42 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* my css */
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.navbar-collapse {
+  margin-left: 64%;
+}
+
+.signup {
+  border: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #0AAD0A;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.mainTop {
+  background-color: #9dd89d;
+  height: 40vh;
+  line-height: 60px;
 }
